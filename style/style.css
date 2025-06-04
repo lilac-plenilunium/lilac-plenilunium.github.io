@@ -3,16 +3,15 @@
    "how to change link color." */
 
 body {
-  background-color: #436a7b;
-  background-image: url('../images/bg_diamond.png');
-	background-position: top;
+  background-color: #000000;
+  background-image: url('../images/hazeflow.gif');
   font-size: 18px;
   font-family: Georgia, "Times New Roman", serif;
   margin: 0;
 }
 
 p {
-  line-height: 1.6em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+  line-height: 1.6em;
 }
 
 hr {
@@ -58,7 +57,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   font-family: Tahoma, Geneva, sans-serif;
-  color: #34436f;
+  color: #FF00FF;
 }
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
@@ -66,9 +65,9 @@ h1, h2, h3, h4, h5 {
   margin: 3em auto;
   width: 90%;
 	max-width: 700px;
-	background-color: #f1e3c9;
-  color: #151515; 
-  outline-color: #a9a9a9;
+	background-color: #000000;
+  color: #FFFFFF; 
+  outline-color: #00FFFF;
   outline-style: ridge;
   outline-width: 4px;
   outline-offset: 0;
@@ -81,7 +80,7 @@ h1, h2, h3, h4, h5 {
 
 /*HEADER STYLE*/
 #header {
-  background-color: #384879;
+  background-color: #00FFFF;
   padding: 0 5%;
   border-color: #a9a9a9;
   border-style: ridge;
@@ -100,7 +99,7 @@ h1, h2, h3, h4, h5 {
   margin-top: 0.2em;
 }
 #header li a {
-  color: white;
+  color: black;
   text-decoration: none;
   background-color: inherit;
 }
