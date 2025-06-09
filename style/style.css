@@ -31,7 +31,7 @@
 }
 
 html {
-  cursor: url('../images/crosshair.gif'), 80, 80, auto;
+  cursor: url(../images/crosshair.gif) 80 80, auto;
 }
 
 body {
@@ -192,12 +192,4 @@ a:active {
 #footer {
   font-size: 0.6em;
   padding: 0 5% 10px 5%;
-}
-
-@keyframes spin { 
-  from { 
-      transform: rotate(0deg); 
-  } to { 
-      transform: rotate(360deg); 
-    }
 }

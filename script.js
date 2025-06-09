@@ -12,6 +12,7 @@
 
 //-----------------------------
 
+
 //==[ 1. BASIC INFO ]==
 
 let blogName = "Calliope's Mind";
