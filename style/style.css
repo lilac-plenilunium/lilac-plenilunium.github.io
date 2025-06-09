@@ -1,32 +1,32 @@
 @font-face {
   font-family: Beech;
-  src: url(fonts/Beech.woff);
+  src: url(fonts/Beech.woff) !important;
 }
 
 @font-face {
   font-family: LibreBarcode_text;
-  src: url(fonts/LibreBarcode128Text-Regular.woff);
+  src: url(fonts/LibreBarcode128Text-Regular.woff) !important;
 }
 
 @font-face {
   font-family: LibreBarcode;
-  src: url(fonts/LibreBarcode128-Regular.woff);
+  src: url(fonts/LibreBarcode128-Regular.woff) !important;
 }
 
 @font-face {
   font-family: Newspaper;
-  src: url(fonts/newspaper.woff);
+  src: url(fonts/newspaper.woff) !important;
 }
 
 @font-face {
   font-family: SpaceMono;
-  src: url(fonts/SpaceMono-Regular.woff);
+  src: url(fonts/SpaceMono-Regular.woff) !important;
   font-weight: normal;
 }
 
 @font-face {
   font-family: SpaceMono;
-  src: url(fonts/SpaceMono-Bold.woff);
+  src: url(fonts/SpaceMono-Bold.woff) !important;
   font-style: bold;
 }
 
