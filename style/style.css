@@ -1,37 +1,37 @@
 @font-face {
   font-family: Beech;
-  src: url(fonts/Beech.woff) !important;
+  src: url(fonts/Beech.woff);
 }
 
 @font-face {
   font-family: LibreBarcode_text;
-  src: url(fonts/LibreBarcode128Text-Regular.woff) !important;
+  src: url(fonts/LibreBarcode128Text-Regular.woff);
 }
 
 @font-face {
   font-family: LibreBarcode;
-  src: url(fonts/LibreBarcode128-Regular.woff) !important;
+  src: url(fonts/LibreBarcode128-Regular.woff);
 }
 
 @font-face {
   font-family: Newspaper;
-  src: url(fonts/newspaper.woff) !important;
+  src: url(fonts/newspaper.woff);
 }
 
 @font-face {
   font-family: SpaceMono;
-  src: url(fonts/SpaceMono-Regular.woff) !important;
+  src: url(fonts/SpaceMono-Regular.woff);
   font-weight: normal;
 }
 
 @font-face {
   font-family: SpaceMono;
-  src: url(fonts/SpaceMono-Bold.woff) !important;
+  src: url(fonts/SpaceMono-Bold.woff);
   font-style: bold;
 }
 
 html {
-  cursor: url(../images/crosshair.gif) 80 80, auto;
+  cursor: none;
 }
 
 body {
@@ -47,7 +47,7 @@ p {
 }
 
 hr {
-  border: solid #c7b591;
+  border: solid #FF00FF;
   border-width: 2px 0 0 0;
 }
 
@@ -84,8 +84,12 @@ img {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: Beech, sans-serif;
+  font-family: "Beech";
   color: #FF00FF;
+}
+
+a {
+  cursor: none;
 }
 
 /* unvisited link */
@@ -129,10 +133,11 @@ a:active {
 
 /*HEADER STYLE*/
 #header {
-  font-weight: bold;
+  font-family: LibreBarcode_text;
+  font-size: 1.6rem;
   background-color: #00FFFF;
   padding: 0 5%;
-  border-color: #a9a9a9;
+  border-color: #FFFFFF;
   border-style: ridge;
   border-width: 0 0 4px 0;
 }
@@ -154,6 +159,7 @@ a:active {
   background-color: inherit;
 }
 #header li a:hover {
+  color: #FF00FF;
   text-decoration: underline;
 }
 
@@ -192,4 +198,14 @@ a:active {
 #footer {
   font-size: 0.6em;
   padding: 0 5% 10px 5%;
+}
+
+.cursor {
+  position: fixed;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+  background: url(../images/neut.png);
+  pointer-events: none;
 }
