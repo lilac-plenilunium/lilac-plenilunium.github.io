@@ -71,7 +71,7 @@ if ( url.includes("posts/") ) {
 //Generate the Header HTML, a series of list items containing links.
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' + 
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-'<li><a href="' + relativePath + '/about.html">About</a></li> </ul> <div class="cursor"></div>';
+'<li><a href="' + relativePath + '/about.html">About</a></li> </ul> <div class="cursor"></div> <div id="everything"></div>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
@@ -238,14 +238,3 @@ if (document.title === "Blog Post") {
 }
 
 //
-let cursor = document.querySelector('.cursor')
-
-document.addEventListener('mousemove', moveCursor)
-
-function moveCursor(e) {
-  let x = e.clientX;
-  let y = e.clientY;
-
-  cursor.style.left = `${x}px`
-  cursor.style.top = `${y}px`
-}
